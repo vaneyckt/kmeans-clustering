@@ -8,4 +8,4 @@ Install the gem at the command prompt:
 
     gem install kmeans-clustering
 
-See the example.rb file for a practical example. It should hopefully be pretty straightforward to adapt that code to your needs. Keep in mind that the calcDistanceSquared function is called a lot by the k-means algorithm, so its code should ideally be kept simple.
+See the example.rb file for a practical example. It should be pretty straightforward to adapt this code to your needs. Keep in mind that the calcDistanceSquared function is called a lot by the k-means clustering algorithm, so its code should ideally be kept simple.
