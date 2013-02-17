@@ -1,0 +1,11 @@
+== Introduction
+
+A simple Ruby gem for parallelized {k-means clustering}[http://en.wikipedia.org/wiki/K-means_clustering]. Parallelization is done with the aid of {Cabiri}[https://github.com/vaneyckt/cabiri].
+
+== Getting Started
+
+Install the gem at the command prompt:
+
+    gem install kmeans-clustering
+
+See the example.rb file for a practical example. It should hopefully be pretty straightforward to adapt that code to your needs. Keep in mind that the calcDistanceSquared function is called a lot by the k-means algorithm, so its code should ideally be kept simple.
